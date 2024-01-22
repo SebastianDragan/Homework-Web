@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<div class="container-fluid">
+  <div class="row mt-5">
+    <div class="col"></div>
+    <div class="col-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <form (ngSubmit)="startGame()">
+            <div class="mb-3">
+              <h4 class="text-danger text-muted">Welcome</h4>
+            </div>
+            <div>
+              <h5 class="text-bold text-muted text-bold">Tic-Tac-Toe dates back to ancient times!</h5>
+              <p>
+                    Did you know that
+                Tic-Tac-Toe has a rich history that can be traced back thousands
+                of years? This game, also known as noughts and crosses, is
+                believed to have originated in ancient Egypt. Archaeologists
+                have discovered drawings resembling Tic-Tac-Toe on the walls of
+                Egyptian temples, dating as far back as 1300 BCE.
+              </p>
+            </div>
+            <button class="btn btn-primary d-flex mt-3" type="submit">
+              Start Game
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>

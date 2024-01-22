@@ -1,0 +1,25 @@
+.board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: #fff;
+ 
+}
+
+.status {
+  color: black;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.new-game {
+     align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+ 
+
